@@ -94,3 +94,10 @@ This project is open source and available under the MIT License.
 
 ## Contributions
 Contributions and forks are welcome! Feel free to add support for other Steam games, improve UI, or enhance automation.
+
+## Known Issues
+- When copying downloads from steamcmd/steamapps/workshop/content, all folders are copied, not just the ones that were downloaded.
+
+- The script errors out when pasting links during a second run.
+
+- If Steam authentication fails, the script still proceeds to the extraction step instead of stopping.
